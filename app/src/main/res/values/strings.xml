@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">lotto</string>
+    <string name="loto_num_check_btn">로또번호 확인</string>
+    <string name="constellation_title">쌍둥이자리</string>
 </resources>

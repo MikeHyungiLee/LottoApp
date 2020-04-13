@@ -2,13 +2,11 @@ package com.hyungilee.lotto
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 
-class MainActivity : AppCompatActivity() {
+class AbsoluteActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        Toast.makeText(applicationContext, "MainActivity이다.",Toast.LENGTH_SHORT).show()
+        setContentView(R.layout.activity_absolute)
     }
 }
